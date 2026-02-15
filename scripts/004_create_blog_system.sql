@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS blog_posts (
   excerpt TEXT,
   content TEXT NOT NULL DEFAULT '',
   image_url TEXT,
-  author_name TEXT NOT NULL DEFAULT 'RoyalSewa Team',
+  author_name TEXT NOT NULL DEFAULT 'Premium Subscriptions Store Team',
   category_tag TEXT,
   status TEXT NOT NULL DEFAULT 'draft' CHECK (status IN ('draft', 'published')),
   meta_title TEXT,
