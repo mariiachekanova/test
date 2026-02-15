@@ -528,7 +528,10 @@ export default function CheckoutPage() {
                       <div className="rounded-lg bg-white p-2 flex flex-col items-center justify-center">
                         <div className="relative w-full aspect-square max-w-[160px]">
                           <Image
-                            src={`/images/qr/${paymentMethod}.png`}
+                            src={paymentMethod === "esewa" 
+                              ? "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/esewa.jpg-qh3ZTwLcUhaic6z7mKCigVmHoXJrWR.jpeg"
+                              : "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/bank.jpg-G9BCKBj2AKzrEbtAiObKQILNWm34LB.jpeg"
+                            }
                             alt={`${selectedMethod.name} QR Code`}
                             fill
                             className="object-contain rounded-md"
