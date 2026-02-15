@@ -11,7 +11,7 @@ import { Footer } from "@/components/footer"
 import type { Metadata } from "next"
 
 export const metadata: Metadata = {
-  title: "RoyalSewa - Buy Netflix, Spotify, Gift Cards & Game Top-Ups in Nepal",
+  title: "Premium Subscriptions Store - Buy Netflix, Spotify, Gift Cards & Game Top-Ups in Nepal",
   description:
     "Nepal's #1 digital store. Buy Netflix, Spotify Premium, YouTube Premium, Google Play gift cards, Steam Wallet codes, PlayStation Plus, and more at the best prices in Nepal. Instant delivery via eSewa, Khalti, ConnectIPS.",
   keywords: [
@@ -23,24 +23,24 @@ export const metadata: Metadata = {
     "steam wallet nepal",
     "game top up nepal",
     "digital subscriptions nepal",
-    "royalsewa",
+    "premium subscriptions store",
     "esewa gift card",
     "playstation plus nepal",
     "xbox game pass nepal",
   ],
-  alternates: { canonical: "https://www.royalsewa.com" },
+  alternates: { canonical: "https://www.premiumsubscriptions.com" },
   openGraph: {
-    title: "RoyalSewa - Buy Netflix, Spotify, Gift Cards & Game Top-Ups in Nepal",
+    title: "Premium Subscriptions Store - Buy Netflix, Spotify, Gift Cards & Game Top-Ups in Nepal",
     description:
       "Nepal's #1 digital store for subscriptions, gift cards, and game top-ups. Instant delivery. Pay with eSewa, Khalti, or bank transfer.",
-    url: "https://www.royalsewa.com",
-    siteName: "RoyalSewa",
+    url: "https://www.premiumsubscriptions.com",
+    siteName: "Premium Subscriptions Store",
     type: "website",
     locale: "en_NP",
   },
   twitter: {
     card: "summary_large_image",
-    title: "RoyalSewa - Digital Subscriptions & Gift Cards in Nepal",
+    title: "Premium Subscriptions Store - Digital Subscriptions & Gift Cards in Nepal",
     description:
       "Buy Netflix, Spotify, Google Play gift cards, Steam Wallet and more in Nepal at the best prices.",
   },
