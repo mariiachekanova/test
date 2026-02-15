@@ -109,7 +109,7 @@ export async function POST(req: NextRequest) {
             }
 
             <p style="margin:20px 0 0;font-size:13px;color:#555;line-height:1.6;">
-              Please save these credentials securely. If you have any issues, reply to this email or contact us at support@premiumsubscriptions.com.
+              Please save these credentials securely. If you have any issues, reply to this email or contact us at support@premiumsubscriptions.store.
             </p>
           </td>
         </tr>
@@ -131,7 +131,7 @@ export async function POST(req: NextRequest) {
 </html>`
 
     const { data, error } = await resend.emails.send({
-      from: "Premium Subscriptions Store <support@premiumsubscriptions.com>",
+      from: "Premium Subscriptions Store <support@premiumsubscriptions.store>",
       to: customerEmail,
       subject: `Your Order #${orderNumber} - Account Credentials`,
       html,

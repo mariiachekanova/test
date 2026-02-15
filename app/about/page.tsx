@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'About Premium Subscriptions Store - Nepal\'s #1 Digital Subscription Provider',
     description: 'Nepal\'s most trusted platform for digital subscriptions, gift cards, and game top-ups. Serving 50,000+ customers across Nepal.',
-    url: 'https://www.premiumsubscriptions.com/about',
+    url: 'https://www.premiumsubscriptions.store/about',
   },
 }
 
@@ -137,7 +137,7 @@ export default function AboutPage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-[13px]">
               <a href="https://wa.me/9779746334202" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">WhatsApp: +977 9746334202</a>
               <span className="hidden sm:inline text-border">|</span>
-              <a href="mailto:support@premiumsubscriptions.com" className="text-primary font-semibold hover:underline">support@premiumsubscriptions.com</a>
+              <a href="mailto:support@premiumsubscriptions.store" className="text-primary font-semibold hover:underline">support@premiumsubscriptions.store</a>
             </div>
           </section>
         </div>

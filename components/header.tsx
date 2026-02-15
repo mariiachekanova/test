@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { useRouter } from "next/navigation"
 import { motion, AnimatePresence } from "framer-motion"
 import { 
@@ -139,9 +140,13 @@ export function Header() {
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between h-[52px]">
             <Link href="/" className="shrink-0 cursor-pointer group flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-[0_2px_8px_hsl(38_92%_50%/0.3)] group-hover:shadow-[0_2px_16px_hsl(38_92%_50%/0.45)] transition-all duration-300">
-                <span className="font-serif text-[16px] font-bold leading-none text-primary-foreground">P</span>
-              </div>
+              <Image
+                src="/images/logo.png"
+                alt="Premium Subscriptions Nepal"
+                width={36}
+                height={36}
+                className="rounded-full group-hover:scale-105 transition-transform duration-300"
+              />
               <span className="font-serif text-[20px] font-bold tracking-[-0.02em] leading-none text-foreground">Premium <span className="text-primary">Subscriptions</span></span>
             </Link>
             <div className="flex items-center gap-1">
@@ -243,9 +248,13 @@ export function Header() {
         <div className="px-4">
           <div className="flex items-center justify-between h-[52px]">
             <Link href="/" className="shrink-0 cursor-pointer group flex items-center gap-2">
-              <div className="w-7 h-7 rounded-md bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-[0_2px_8px_hsl(38_92%_50%/0.3)] group-hover:shadow-[0_2px_16px_hsl(38_92%_50%/0.45)] transition-all duration-300">
-                <span className="font-serif text-[14px] font-bold leading-none text-primary-foreground">P</span>
-              </div>
+              <Image
+                src="/images/logo.png"
+                alt="Premium Subscriptions Nepal"
+                width={32}
+                height={32}
+                className="rounded-full group-hover:scale-105 transition-transform duration-300"
+              />
               <span className="font-serif text-[17px] font-bold tracking-[-0.02em] leading-none text-foreground">Premium <span className="text-primary">Subs</span></span>
             </Link>
             <div className="flex items-center gap-0.5">

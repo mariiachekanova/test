@@ -26,7 +26,7 @@ const sections = [
   },
   {
     title: '4. How to Request a Refund',
-    content: 'To request a refund: email us at support@premiumsubscriptions.com with your order ID, registered email, and a description of the issue; our team will investigate and respond within 24-48 hours; if approved, refunds will be processed to your original payment method within 5-7 business days; alternatively, you may opt for store credit which is processed instantly.',
+    content: 'To request a refund: email us at support@premiumsubscriptions.store with your order ID, registered email, and a description of the issue; our team will investigate and respond within 24-48 hours; if approved, refunds will be processed to your original payment method within 5-7 business days; alternatively, you may opt for store credit which is processed instantly.',
   },
   {
     title: '5. Refund Method',
@@ -38,11 +38,11 @@ const sections = [
   },
   {
     title: '7. Disputes',
-    content: 'If you are not satisfied with our refund decision, you may escalate the matter by emailing support@premiumsubscriptions.com with the subject "Refund Dispute" and your order details. We will review your case within 48 hours and provide a final decision.',
+    content: 'If you are not satisfied with our refund decision, you may escalate the matter by emailing support@premiumsubscriptions.store with the subject "Refund Dispute" and your order details. We will review your case within 48 hours and provide a final decision.',
   },
   {
     title: '8. Contact',
-    content: 'For all refund-related queries, reach us at support@premiumsubscriptions.com or through our Contact page. Our support team operates Sun-Fri, 10 AM - 6 PM NPT.',
+    content: 'For all refund-related queries, reach us at support@premiumsubscriptions.store or through our Contact page. Our support team operates Sun-Fri, 10 AM - 6 PM NPT.',
   },
 ]
 

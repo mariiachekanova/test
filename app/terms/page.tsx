@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 const sections = [
   {
     title: '1. Acceptance of Terms',
-    content: 'By accessing and using Premium Subscriptions Store (www.premiumsubscriptions.com), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services. These terms apply to all users of the site, including browsers, customers, and contributors of content.',
+    content: 'By accessing and using Premium Subscriptions Store (www.premiumsubscriptions.store), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services. These terms apply to all users of the site, including browsers, customers, and contributors of content.',
   },
   {
     title: '2. Services',
@@ -52,7 +52,7 @@ const sections = [
   },
   {
     title: '11. Contact',
-    content: 'For any questions regarding these Terms and Conditions, please contact us at support@premiumsubscriptions.com or visit our Contact page.',
+    content: 'For any questions regarding these Terms and Conditions, please contact us at support@premiumsubscriptions.store or visit our Contact page.',
   },
 ]
 

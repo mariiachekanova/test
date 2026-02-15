@@ -13,11 +13,11 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Blog - Premium Subscriptions Store",
     description: "Digital guides, deals & news from Nepal's trusted digital store.",
-    url: "https://www.premiumsubscriptions.com/blog",
+    url: "https://www.premiumsubscriptions.store/blog",
     siteName: "Premium Subscriptions Store",
     type: "website",
   },
-  alternates: { canonical: "https://www.premiumsubscriptions.com/blog" },
+  alternates: { canonical: "https://www.premiumsubscriptions.store/blog" },
 }
 
 function BlogCardSkeleton() {
@@ -174,7 +174,7 @@ async function BlogGrid() {
         <ul>
           {posts.map(post => (
             <li key={post.id}>
-              <a href={`https://www.premiumsubscriptions.com/blog/${post.slug}`}>{post.title}</a>
+              <a href={`https://www.premiumsubscriptions.store/blog/${post.slug}`}>{post.title}</a>
               {post.excerpt && <p>{post.excerpt}</p>}
             </li>
           ))}
@@ -211,9 +211,9 @@ export default function BlogPage() {
         "@context": "https://schema.org",
         "@type": "Blog",
         name: "Premium Subscriptions Store Blog",
-        url: "https://www.premiumsubscriptions.com/blog",
+        url: "https://www.premiumsubscriptions.store/blog",
         description: "Guides, deals, and news about digital products in Nepal.",
-        publisher: { "@type": "Organization", name: "Premium Subscriptions Store", url: "https://www.premiumsubscriptions.com" },
+        publisher: { "@type": "Organization", name: "Premium Subscriptions Store", url: "https://www.premiumsubscriptions.store" },
       })}} />
     </div>
   )

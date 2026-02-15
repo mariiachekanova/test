@@ -28,12 +28,12 @@ export const metadata: Metadata = {
     "playstation plus nepal",
     "xbox game pass nepal",
   ],
-  alternates: { canonical: "https://www.premiumsubscriptions.com" },
+  alternates: { canonical: "https://www.premiumsubscriptions.store" },
   openGraph: {
     title: "Premium Subscriptions Store - Buy Netflix, Spotify, Gift Cards & Game Top-Ups in Nepal",
     description:
       "Nepal's #1 digital store for subscriptions, gift cards, and game top-ups. Instant delivery. Pay with eSewa, Khalti, or bank transfer.",
-    url: "https://www.premiumsubscriptions.com",
+    url: "https://www.premiumsubscriptions.store",
     siteName: "Premium Subscriptions Store",
     type: "website",
     locale: "en_NP",

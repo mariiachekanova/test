@@ -88,11 +88,11 @@ export function Footer() {
                 +977 9746334202
               </a>
               <a
-                href="mailto:support@premiumsubscriptions.com"
+                href="mailto:support@premiumsubscriptions.store"
                 className="inline-flex items-center gap-1.5 text-[12px] text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-3 h-3" />
-                support@premiumsubscriptions.com
+                support@premiumsubscriptions.store
               </a>
             </div>
             {/* Social */}
@@ -180,8 +180,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:support@premiumsubscriptions.com" className="text-muted-foreground text-[12px] hover:text-primary transition-colors">
-                  support@premiumsubscriptions.com
+                <a href="mailto:support@premiumsubscriptions.store" className="text-muted-foreground text-[12px] hover:text-primary transition-colors">
+                  support@premiumsubscriptions.store
                 </a>
               </li>
             </ul>
