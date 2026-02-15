@@ -32,7 +32,7 @@ const sections = [
   },
   {
     title: '6. Your Rights',
-    content: 'You have the right to: access the personal information we hold about you; request correction of inaccurate information; request deletion of your account and personal data; opt out of promotional communications; withdraw consent for data processing at any time. To exercise any of these rights, please contact us at support@premiumsubscriptions.com.',
+    content: 'You have the right to: access the personal information we hold about you; request correction of inaccurate information; request deletion of your account and personal data; opt out of promotional communications; withdraw consent for data processing at any time. To exercise any of these rights, please contact us at support@premiumsubscriptions.store.',
   },
   {
     title: '7. Data Retention',
@@ -48,7 +48,7 @@ const sections = [
   },
   {
     title: '10. Contact',
-    content: 'If you have any questions about this Privacy Policy or our data practices, please contact us at support@premiumsubscriptions.com or visit our Contact page.',
+    content: 'If you have any questions about this Privacy Policy or our data practices, please contact us at support@premiumsubscriptions.store or visit our Contact page.',
   },
 ]
 

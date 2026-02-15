@@ -8,7 +8,7 @@ import { Mail, MessageCircle, Clock, MapPin, Send, Loader2 } from 'lucide-react'
 
 const contactInfo = [
   { icon: MessageCircle, label: 'WhatsApp', value: '+977 9746334202', href: 'https://wa.me/9779746334202' },
-  { icon: Mail, label: 'Email', value: 'support@premiumsubscriptions.com', href: 'mailto:support@premiumsubscriptions.com' },
+  { icon: Mail, label: 'Email', value: 'support@premiumsubscriptions.store', href: 'mailto:support@premiumsubscriptions.store' },
   { icon: MessageCircle, label: 'Live Chat', value: 'Available on site', href: '#' },
   { icon: Clock, label: 'Support Hours', value: 'Sun-Fri, 10AM - 6PM NPT', href: undefined },
   { icon: MapPin, label: 'Location', value: 'Kathmandu, Nepal', href: undefined },

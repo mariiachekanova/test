@@ -28,8 +28,8 @@ export async function generateMetadata({
     product.short_description ||
     product.long_description?.replace(/<[^>]*>/g, "").slice(0, 155) ||
     `Buy ${product.name} in Nepal at the best price. Instant delivery, pay with eSewa, Khalti, ConnectIPS. Premium Subscriptions Store - Nepal's #1 digital store.`
-  const imageUrl = product.image_url || "https://www.premiumsubscriptions.com/android-chrome-512x512.png"
-  const url = `https://www.premiumsubscriptions.com/product/${product.slug || product.id}`
+  const imageUrl = product.image_url || "https://www.premiumsubscriptions.store/android-chrome-512x512.png"
+  const url = `https://www.premiumsubscriptions.store/product/${product.slug || product.id}`
   const price = product.base_price
   const category = product.category?.name || "Digital Products"
 
@@ -109,8 +109,8 @@ function ProductSchemaServer({
   reviewStats: { avg: number; count: number }
   reviews: Array<Record<string, unknown>>
 }) {
-  const url = `https://www.premiumsubscriptions.com/product/${product.slug || product.id}`
-  const imageUrl = product.image_url || "https://www.premiumsubscriptions.com/android-chrome-512x512.png"
+  const url = `https://www.premiumsubscriptions.store/product/${product.slug || product.id}`
+  const imageUrl = product.image_url || "https://www.premiumsubscriptions.store/android-chrome-512x512.png"
   const price = product.base_price
 
   const productSchema: Record<string, unknown> = {
@@ -176,13 +176,13 @@ function ProductSchemaServer({
         "@type": "ListItem",
         position: 1,
         name: "Home",
-        item: "https://www.premiumsubscriptions.com",
+        item: "https://www.premiumsubscriptions.store",
       },
       {
         "@type": "ListItem",
         position: 2,
         name: "Store",
-        item: "https://www.premiumsubscriptions.com/store",
+        item: "https://www.premiumsubscriptions.store/store",
       },
       ...(product.category
         ? [
@@ -190,7 +190,7 @@ function ProductSchemaServer({
               "@type": "ListItem",
               position: 3,
               name: product.category.name,
-              item: `https://www.premiumsubscriptions.com/category/${product.category.slug}`,
+              item: `https://www.premiumsubscriptions.store/category/${product.category.slug}`,
             },
           ]
         : []),
@@ -259,21 +259,21 @@ function SeoContent({
       <meta itemProp="image" content={product.image_url || ""} />
       <meta
         itemProp="url"
-        content={`https://www.premiumsubscriptions.com/product/${product.slug || product.id}`}
+        content={`https://www.premiumsubscriptions.store/product/${product.slug || product.id}`}
       />
 
       {product.category && (
         <nav aria-label="Breadcrumb">
           <ol>
             <li>
-              <a href="https://www.premiumsubscriptions.com">Home</a>
+              <a href="https://www.premiumsubscriptions.store">Home</a>
             </li>
             <li>
-              <a href="https://www.premiumsubscriptions.com/store">Store</a>
+              <a href="https://www.premiumsubscriptions.store/store">Store</a>
             </li>
             <li>
               <a
-                href={`https://www.premiumsubscriptions.com/category/${product.category.slug}`}
+                href={`https://www.premiumsubscriptions.store/category/${product.category.slug}`}
               >
                 {product.category.name}
               </a>
@@ -303,7 +303,7 @@ function SeoContent({
         />
         <link
           itemProp="url"
-          href={`https://www.premiumsubscriptions.com/product/${product.slug || product.id}`}
+          href={`https://www.premiumsubscriptions.store/product/${product.slug || product.id}`}
         />
       </div>
 

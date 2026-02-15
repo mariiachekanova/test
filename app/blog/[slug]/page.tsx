@@ -19,7 +19,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const title = post.meta_title || `${post.title} - Premium Subscriptions Store Blog`
   const description = post.meta_description || post.excerpt || `Read ${post.title} on Premium Subscriptions Store Blog.`
-  const url = `https://www.premiumsubscriptions.com/blog/${post.slug}`
+  const url = `https://www.premiumsubscriptions.store/blog/${post.slug}`
 
   return {
     title,
@@ -75,7 +75,7 @@ async function BlogArticle({ slug }: { slug: string }) {
   // Related posts (exclude current)
   const related = allPosts.filter(p => p.id !== post.id).slice(0, 3)
 
-  const url = `https://www.premiumsubscriptions.com/blog/${post.slug}`
+  const url = `https://www.premiumsubscriptions.store/blog/${post.slug}`
 
   // JSON-LD schemas
   const articleSchema = {
@@ -91,8 +91,8 @@ async function BlogArticle({ slug }: { slug: string }) {
     publisher: {
       "@type": "Organization",
       name: "Premium Subscriptions Store",
-      url: "https://www.premiumsubscriptions.com",
-      logo: { "@type": "ImageObject", url: "https://www.premiumsubscriptions.com/android-chrome-512x512.png" },
+      url: "https://www.premiumsubscriptions.store",
+      logo: { "@type": "ImageObject", url: "https://www.premiumsubscriptions.store/android-chrome-512x512.png" },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     wordCount,
@@ -102,8 +102,8 @@ async function BlogArticle({ slug }: { slug: string }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.premiumsubscriptions.com" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.premiumsubscriptions.com/blog" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.premiumsubscriptions.store" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.premiumsubscriptions.store/blog" },
       { "@type": "ListItem", position: 3, name: post.title, item: url },
     ],
   }
@@ -233,7 +233,7 @@ async function BlogArticle({ slug }: { slug: string }) {
             <ul>
               {post.linked_products.map(p => (
                 <li key={p.id}>
-                  <a href={`https://www.premiumsubscriptions.com/product/${p.slug || p.id}`}>{p.name}</a>
+                  <a href={`https://www.premiumsubscriptions.store/product/${p.slug || p.id}`}>{p.name}</a>
                 </li>
               ))}
             </ul>

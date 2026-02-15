@@ -11,7 +11,7 @@ import { Footer } from "@/components/footer"
 import { ProductCard } from "@/components/product-card"
 import { ChevronRight, Package } from "lucide-react"
 
-const BASE = "https://www.premiumsubscriptions.com"
+const BASE = "https://www.premiumsubscriptions.store"
 
 // ─── Dynamic Metadata ───────────────────────────────────────────────
 export async function generateMetadata({
