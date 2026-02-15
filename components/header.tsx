@@ -140,9 +140,9 @@ export function Header() {
           <div className="flex items-center justify-between h-[52px]">
             <Link href="/" className="shrink-0 cursor-pointer group flex items-center gap-2.5">
               <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-[0_2px_8px_hsl(38_92%_50%/0.3)] group-hover:shadow-[0_2px_16px_hsl(38_92%_50%/0.45)] transition-all duration-300">
-                <span className="font-serif text-[16px] font-bold leading-none text-primary-foreground">R</span>
+                <span className="font-serif text-[16px] font-bold leading-none text-primary-foreground">P</span>
               </div>
-              <span className="font-serif text-[20px] font-bold tracking-[-0.02em] leading-none text-foreground">royal<span className="text-primary">sewa</span></span>
+              <span className="font-serif text-[20px] font-bold tracking-[-0.02em] leading-none text-foreground">Premium <span className="text-primary">Subscriptions</span></span>
             </Link>
             <div className="flex items-center gap-1">
               <Link href="#" className="flex items-center gap-1.5 px-3 py-2 text-[13px] text-muted-foreground hover:text-primary font-medium rounded-lg hover:bg-secondary transition-colors cursor-pointer">
@@ -244,9 +244,9 @@ export function Header() {
           <div className="flex items-center justify-between h-[52px]">
             <Link href="/" className="shrink-0 cursor-pointer group flex items-center gap-2">
               <div className="w-7 h-7 rounded-md bg-gradient-to-br from-primary to-primary/80 flex items-center justify-center shadow-[0_2px_8px_hsl(38_92%_50%/0.3)] group-hover:shadow-[0_2px_16px_hsl(38_92%_50%/0.45)] transition-all duration-300">
-                <span className="font-serif text-[14px] font-bold leading-none text-primary-foreground">R</span>
+                <span className="font-serif text-[14px] font-bold leading-none text-primary-foreground">P</span>
               </div>
-              <span className="font-serif text-[17px] font-bold tracking-[-0.02em] leading-none text-foreground">royal<span className="text-primary">sewa</span></span>
+              <span className="font-serif text-[17px] font-bold tracking-[-0.02em] leading-none text-foreground">Premium <span className="text-primary">Subs</span></span>
             </Link>
             <div className="flex items-center gap-0.5">
               <DropdownMenu>

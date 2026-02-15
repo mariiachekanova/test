@@ -69,9 +69,9 @@ export function Footer() {
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
             <Link href="/" className="flex items-center gap-2 mb-3">
               <div className="w-6 h-6 rounded-md bg-primary flex items-center justify-center amber-glow-sm">
-                <span className="text-primary-foreground font-bold text-[10px]">R</span>
+                <span className="text-primary-foreground font-bold text-[10px]">P</span>
               </div>
-              <span className="text-[15px] font-semibold text-primary">RoyalSewa</span>
+              <span className="text-[15px] font-semibold text-primary">Premium Subscriptions Store</span>
             </Link>
             <p className="text-muted-foreground text-[12px] leading-relaxed mb-3">
               Nepal&apos;s trusted digital subscription provider. Buy Netflix, Spotify, YouTube Premium, game top-ups & software. Pay with eSewa, Khalti, ConnectIPS.
@@ -88,11 +88,11 @@ export function Footer() {
                 +977 9869671451
               </a>
               <a
-                href="mailto:support@royalsewa.com"
+                href="mailto:support@premiumsubscriptions.com"
                 className="inline-flex items-center gap-1.5 text-[12px] text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-3 h-3" />
-                support@royalsewa.com
+                support@premiumsubscriptions.com
               </a>
             </div>
             {/* Social */}
@@ -180,8 +180,8 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="mailto:support@royalsewa.com" className="text-muted-foreground text-[12px] hover:text-primary transition-colors">
-                  support@royalsewa.com
+                <a href="mailto:support@premiumsubscriptions.com" className="text-muted-foreground text-[12px] hover:text-primary transition-colors">
+                  support@premiumsubscriptions.com
                 </a>
               </li>
             </ul>
@@ -203,7 +203,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="border-t border-border pt-5 flex flex-col md:flex-row items-start md:items-center justify-between gap-3">
           <p className="text-muted-foreground text-[11px]">
-            &copy; 2026 RoyalSewa. All rights reserved. Product trademarks belong to their respective owners.
+            &copy; 2026 Premium Subscriptions Store. All rights reserved. Product trademarks belong to their respective owners.
           </p>
           <div className="flex items-center gap-4 text-[11px]">
             <Link href="/terms" className="text-muted-foreground hover:text-primary transition-colors">Terms</Link>

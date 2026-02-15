@@ -31,37 +31,37 @@ export const viewport: Viewport = {
 
 export const metadata: Metadata = {
   title: {
-    default: 'RoyalSewa - Buy Netflix, Spotify & Subscriptions in Nepal | Digital Store Nepal',
-    template: '%s | RoyalSewa Nepal',
+    default: 'Premium Subscriptions Store - Buy Netflix, Spotify & Subscriptions in Nepal | Digital Store Nepal',
+    template: '%s | Premium Subscriptions Store Nepal',
   },
   description: 'Nepal\'s #1 trusted digital store. Buy Netflix subscription in Nepal, Spotify Premium, YouTube Premium, game top-ups & software keys. Pay with eSewa, Khalti, ConnectIPS. Instant delivery, best prices in NPR.',
   keywords: [
     'buy netflix in nepal', 'netflix subscription nepal', 'spotify premium nepal',
     'youtube premium nepal', 'digital subscription nepal', 'buy subscription online nepal',
     'esewa payment', 'khalti payment', 'streaming subscription nepal',
-    'game top up nepal', 'gift card nepal', 'royal sewa', 'royalsewa',
+    'game top up nepal', 'gift card nepal', 'premium subscriptions store',
     'digital store nepal', 'online subscription nepal', 'software keys nepal',
     'buy hbo max nepal', 'canva pro nepal', 'discord nitro nepal',
     'nepal digital products', 'subscription service nepal',
   ],
-  authors: [{ name: 'RoyalSewa', url: 'https://royalsewa.com' }],
-  creator: 'RoyalSewa',
-  publisher: 'RoyalSewa',
-  metadataBase: new URL('https://royalsewa.com'),
+  authors: [{ name: 'Premium Subscriptions Store', url: 'https://premiumsubscriptions.com' }],
+  creator: 'Premium Subscriptions Store',
+  publisher: 'Premium Subscriptions Store',
+  metadataBase: new URL('https://premiumsubscriptions.com'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://royalsewa.com',
-    siteName: 'RoyalSewa',
-    title: 'RoyalSewa - Buy Netflix, Spotify & Digital Subscriptions in Nepal',
+    url: 'https://premiumsubscriptions.com',
+    siteName: 'Premium Subscriptions Store',
+    title: 'Premium Subscriptions Store - Buy Netflix, Spotify & Digital Subscriptions in Nepal',
     description: 'Nepal\'s most trusted platform for digital subscriptions. Buy Netflix, Spotify, YouTube Premium & more. Pay with eSewa, Khalti, ConnectIPS. Instant delivery.',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'RoyalSewa - Digital Subscriptions & Products in Nepal',
+    title: 'Premium Subscriptions Store - Digital Subscriptions & Products in Nepal',
     description: 'Buy Netflix, Spotify, YouTube Premium & more in Nepal. Pay with eSewa, Khalti. Instant delivery, best NPR prices.',
   },
   robots: {
@@ -102,9 +102,9 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'Organization',
-              name: 'RoyalSewa',
-              url: 'https://www.royalsewa.com',
-              logo: 'https://www.royalsewa.com/android-chrome-512x512.png',
+              name: 'Premium Subscriptions Store',
+              url: 'https://www.premiumsubscriptions.com',
+              logo: 'https://www.premiumsubscriptions.com/android-chrome-512x512.png',
               description: "Nepal's trusted digital store for subscriptions, gift cards, game top-ups, and software licenses.",
               address: {
                 '@type': 'PostalAddress',
@@ -114,7 +114,7 @@ export default function RootLayout({
               contactPoint: {
                 '@type': 'ContactPoint',
                 telephone: '+977-9869671451',
-                email: 'support@royalsewa.com',
+                email: 'support@premiumsubscriptions.com',
                 contactType: 'customer service',
                 availableLanguage: ['English', 'Nepali'],
               },
@@ -128,13 +128,13 @@ export default function RootLayout({
             __html: JSON.stringify({
               '@context': 'https://schema.org',
               '@type': 'WebSite',
-              name: 'RoyalSewa',
-              url: 'https://www.royalsewa.com',
+              name: 'Premium Subscriptions Store',
+              url: 'https://www.premiumsubscriptions.com',
               potentialAction: {
                 '@type': 'SearchAction',
                 target: {
                   '@type': 'EntryPoint',
-                  urlTemplate: 'https://www.royalsewa.com/search?q={search_term_string}',
+                  urlTemplate: 'https://www.premiumsubscriptions.com/search?q={search_term_string}',
                 },
                 'query-input': 'required name=search_term_string',
               },
