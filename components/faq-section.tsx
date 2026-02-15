@@ -37,7 +37,7 @@ const faqs = [
   {
     question: "What is your refund policy?",
     answer:
-      "Since all our products are digital and delivered instantly, refunds are handled on a case-by-case basis. If you face any issue with your product, please contact our support team via WhatsApp at +977 9869671451 or email support@premiumsubscriptions.com within 24 hours of purchase.",
+      "Since all our products are digital and delivered instantly, refunds are handled on a case-by-case basis. If you face any issue with your product, please contact our support team via WhatsApp at +977 9746334202 or email support@premiumsubscriptions.com within 24 hours of purchase.",
   },
   {
     question: "How long do subscription plans last?",

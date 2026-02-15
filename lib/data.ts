@@ -2,7 +2,11 @@
 
 import { createClient } from "@/lib/supabase/client"
 
-const supabase = createClient()
+let _supabase: ReturnType<typeof createClient> | null = null
+function getSupabase() {
+  if (!_supabase) _supabase = createClient()
+  return _supabase
+}
 
 export interface Product {
   id: string
@@ -113,6 +117,7 @@ export async function getProducts(opts?: {
   search?: string
   active?: boolean
 }) {
+  const supabase = getSupabase()
   let q = supabase
     .from("products")
     .select("*, categories(id, name, slug)")
@@ -132,6 +137,7 @@ export async function getProducts(opts?: {
 }
 
 export async function getProductBySlug(slug: string): Promise<Product | null> {
+  const supabase = getSupabase()
   // Try by slug first, then by id
   let { data, error } = await supabase
     .from("products")
@@ -181,6 +187,7 @@ export async function getProductBySlug(slug: string): Promise<Product | null> {
 }
 
 export async function getRelatedProducts(productId: string, categoryId: string | null, limit = 4) {
+  const supabase = getSupabase()
   let q = supabase
     .from("products")
     .select("*, categories(id, name, slug)")
@@ -197,6 +204,7 @@ export async function getRelatedProducts(productId: string, categoryId: string |
 // ─── Categories ──────────────────────────────────────────────────────
 
 export async function getCategories(opts?: { parentOnly?: boolean; withChildren?: boolean }) {
+  const supabase = getSupabase()
   let q = supabase
     .from("categories")
     .select("*")
@@ -221,6 +229,7 @@ export async function getCategories(opts?: { parentOnly?: boolean; withChildren?
 }
 
 export async function getCategoryBySlug(slug: string): Promise<Category | null> {
+  const supabase = getSupabase()
   const { data } = await supabase
     .from("categories")
     .select("*")
@@ -245,6 +254,7 @@ export interface Review {
 }
 
 export async function getReviews(productId: string): Promise<Review[]> {
+  const supabase = getSupabase()
   const { data, error } = await supabase
     .from("reviews")
     .select("*, profiles(full_name, avatar_url)")
@@ -260,6 +270,7 @@ export async function getReviews(productId: string): Promise<Review[]> {
 }
 
 export async function getReviewStats(productId: string): Promise<{ avg: number; count: number }> {
+  const supabase = getSupabase()
   const { data, error } = await supabase
     .from("reviews")
     .select("rating")
@@ -271,6 +282,7 @@ export async function getReviewStats(productId: string): Promise<{ avg: number; 
 }
 
 export async function submitReview(productId: string, userId: string, rating: number, title: string, body: string) {
+  const supabase = getSupabase()
   const { data, error } = await supabase
     .from("reviews")
     .insert({ product_id: productId, user_id: userId, rating, title, body })
@@ -282,6 +294,7 @@ export async function submitReview(productId: string, userId: string, rating: nu
 }
 
 export async function deleteReview(reviewId: string) {
+  const supabase = getSupabase()
   const { error } = await supabase.from("reviews").delete().eq("id", reviewId)
   if (error) throw error
 }

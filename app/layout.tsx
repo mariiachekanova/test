@@ -113,7 +113,7 @@ export default function RootLayout({
               },
               contactPoint: {
                 '@type': 'ContactPoint',
-                telephone: '+977-9869671451',
+                telephone: '+977-9746334202',
                 email: 'support@premiumsubscriptions.com',
                 contactType: 'customer service',
                 availableLanguage: ['English', 'Nepali'],
