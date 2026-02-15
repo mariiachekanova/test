@@ -5,18 +5,18 @@ import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Terms & Conditions',
-  description: 'Read the terms and conditions for using RoyalSewa, Nepal\'s digital product marketplace.',
+  description: 'Read the terms and conditions for using Premium Subscriptions Store, Nepal\'s digital product marketplace.',
   alternates: { canonical: '/terms' },
 }
 
 const sections = [
   {
     title: '1. Acceptance of Terms',
-    content: 'By accessing and using RoyalSewa (www.royalsewa.com), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services. These terms apply to all users of the site, including browsers, customers, and contributors of content.',
+    content: 'By accessing and using Premium Subscriptions Store (www.premiumsubscriptions.com), you agree to be bound by these Terms and Conditions. If you do not agree to these terms, please do not use our services. These terms apply to all users of the site, including browsers, customers, and contributors of content.',
   },
   {
     title: '2. Services',
-    content: 'RoyalSewa is a digital marketplace based in Nepal that sells digital products including but not limited to: streaming subscriptions (Netflix, Spotify, YouTube Premium, etc.), gift cards, game top-ups, software licenses, and other digital goods. All products are delivered digitally via email or through your RoyalSewa account.',
+    content: 'Premium Subscriptions Store is a digital marketplace based in Nepal that sells digital products including but not limited to: streaming subscriptions (Netflix, Spotify, YouTube Premium, etc.), gift cards, game top-ups, software licenses, and other digital goods. All products are delivered digitally via email or through your Premium Subscriptions Store account.',
   },
   {
     title: '3. Account Registration',
@@ -24,23 +24,23 @@ const sections = [
   },
   {
     title: '4. Pricing and Payment',
-    content: 'All prices on RoyalSewa are listed in Nepalese Rupees (NPR). We accept payments through eSewa, Khalti, ConnectIPS, and other supported payment methods. Prices are subject to change without notice. Payment must be completed in full before digital products are delivered.',
+    content: 'All prices on Premium Subscriptions Store are listed in Nepalese Rupees (NPR). We accept payments through eSewa, Khalti, ConnectIPS, and other supported payment methods. Prices are subject to change without notice. Payment must be completed in full before digital products are delivered.',
   },
   {
     title: '5. Digital Product Delivery',
-    content: 'Digital products are delivered instantly after successful payment confirmation. Delivery is made via email and/or your RoyalSewa account dashboard. In rare cases of system delays, delivery may take up to 24 hours. If you have not received your product within 24 hours, please contact our support team.',
+    content: 'Digital products are delivered instantly after successful payment confirmation. Delivery is made via email and/or your Premium Subscriptions Store account dashboard. In rare cases of system delays, delivery may take up to 24 hours. If you have not received your product within 24 hours, please contact our support team.',
   },
   {
     title: '6. Intellectual Property',
-    content: 'All content on RoyalSewa, including text, graphics, logos, and software, is the property of RoyalSewa or its content suppliers and is protected by Nepal and international copyright laws. Product names, logos, and brands are property of their respective owners and are used for identification purposes only.',
+    content: 'All content on Premium Subscriptions Store, including text, graphics, logos, and software, is the property of Premium Subscriptions Store or its content suppliers and is protected by Nepal and international copyright laws. Product names, logos, and brands are property of their respective owners and are used for identification purposes only.',
   },
   {
     title: '7. User Conduct',
-    content: 'You agree not to: use the service for any unlawful purpose; attempt to gain unauthorized access to any part of the service; interfere with or disrupt the service; resell products purchased from RoyalSewa without authorization; provide false or misleading information during registration or purchase.',
+    content: 'You agree not to: use the service for any unlawful purpose; attempt to gain unauthorized access to any part of the service; interfere with or disrupt the service; resell products purchased from Premium Subscriptions Store without authorization; provide false or misleading information during registration or purchase.',
   },
   {
     title: '8. Limitation of Liability',
-    content: 'RoyalSewa shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the service. Our total liability for any claim arising from these terms shall not exceed the amount paid by you for the specific product in question.',
+    content: 'Premium Subscriptions Store shall not be liable for any indirect, incidental, special, consequential, or punitive damages resulting from your use of or inability to use the service. Our total liability for any claim arising from these terms shall not exceed the amount paid by you for the specific product in question.',
   },
   {
     title: '9. Governing Law',
@@ -48,11 +48,11 @@ const sections = [
   },
   {
     title: '10. Changes to Terms',
-    content: 'RoyalSewa reserves the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting on the website. Your continued use of the service after any changes constitutes acceptance of the new terms.',
+    content: 'Premium Subscriptions Store reserves the right to modify these Terms and Conditions at any time. Changes will be effective immediately upon posting on the website. Your continued use of the service after any changes constitutes acceptance of the new terms.',
   },
   {
     title: '11. Contact',
-    content: 'For any questions regarding these Terms and Conditions, please contact us at support@royalsewa.com or visit our Contact page.',
+    content: 'For any questions regarding these Terms and Conditions, please contact us at support@premiumsubscriptions.com or visit our Contact page.',
   },
 ]
 

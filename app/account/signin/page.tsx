@@ -69,7 +69,7 @@ export default function SignInPage() {
               <ShieldCheck className="w-6 h-6 text-primary" />
             </div>
             <h1 className="text-[22px] font-bold text-foreground">Welcome Back</h1>
-            <p className="text-[13px] text-muted-foreground mt-1">Sign in to your RoyalSewa account</p>
+            <p className="text-[13px] text-muted-foreground mt-1">Sign in to your Premium Subscriptions Store account</p>
           </div>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">

@@ -10,14 +10,14 @@ import {
 
 const faqs = [
   {
-    question: "What is RoyalSewa and what do you sell?",
+    question: "What is Premium Subscriptions Store and what do you sell?",
     answer:
-      "RoyalSewa is Nepal's leading digital store for subscriptions, gift cards, game top-ups, and software licenses. We offer products like Netflix, Spotify, YouTube Premium, Google Play gift cards, Steam Wallet codes, PlayStation Plus, and more -- all at the most affordable prices for customers in Nepal.",
+      "Premium Subscriptions Store is Nepal's leading digital store for subscriptions, gift cards, game top-ups, and software licenses. We offer products like Netflix, Spotify, YouTube Premium, Google Play gift cards, Steam Wallet codes, PlayStation Plus, and more -- all at the most affordable prices for customers in Nepal.",
   },
   {
     question: "How do I receive my product after purchase?",
     answer:
-      "All products are delivered digitally. After your payment is confirmed, you will receive your subscription credentials, gift card codes, or activation keys via your RoyalSewa account dashboard and email. Most orders are fulfilled within minutes.",
+      "All products are delivered digitally. After your payment is confirmed, you will receive your subscription credentials, gift card codes, or activation keys via your Premium Subscriptions Store account dashboard and email. Most orders are fulfilled within minutes.",
   },
   {
     question: "What payment methods are accepted in Nepal?",
@@ -25,19 +25,19 @@ const faqs = [
       "We accept eSewa, Khalti, ConnectIPS, bank transfer, and international cards (Visa/Mastercard). Simply choose your preferred method at checkout. All prices are displayed in Nepali Rupees (NPR).",
   },
   {
-    question: "Is it safe to buy digital subscriptions from RoyalSewa?",
+    question: "Is it safe to buy digital subscriptions from Premium Subscriptions Store?",
     answer:
-      "Absolutely. RoyalSewa is a trusted and verified digital retailer based in Nepal. All our products are 100% genuine and sourced from authorized channels. We have served thousands of satisfied customers across Nepal.",
+      "Absolutely. Premium Subscriptions Store is a trusted and verified digital retailer based in Nepal. All our products are 100% genuine and sourced from authorized channels. We have served thousands of satisfied customers across Nepal.",
   },
   {
     question: "Can I buy Netflix, Spotify, or YouTube Premium from Nepal?",
     answer:
-      "Yes! RoyalSewa makes it easy for Nepali customers to access global subscription services. We provide Netflix, Spotify Premium, YouTube Premium, Disney+, Apple Music, and many more with instant activation.",
+      "Yes! Premium Subscriptions Store makes it easy for Nepali customers to access global subscription services. We provide Netflix, Spotify Premium, YouTube Premium, Disney+, Apple Music, and many more with instant activation.",
   },
   {
     question: "What is your refund policy?",
     answer:
-      "Since all our products are digital and delivered instantly, refunds are handled on a case-by-case basis. If you face any issue with your product, please contact our support team via WhatsApp at +977 9869671451 or email support@royalsewa.com within 24 hours of purchase.",
+      "Since all our products are digital and delivered instantly, refunds are handled on a case-by-case basis. If you face any issue with your product, please contact our support team via WhatsApp at +977 9869671451 or email support@premiumsubscriptions.com within 24 hours of purchase.",
   },
   {
     question: "How long do subscription plans last?",
@@ -84,7 +84,7 @@ export function FAQSection() {
           </h2>
           <p className="text-sm text-muted-foreground mt-1">
             Everything you need to know about buying digital products in Nepal
-            from RoyalSewa.
+            from Premium Subscriptions Store.
           </p>
         </motion.div>
 

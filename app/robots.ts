@@ -9,6 +9,6 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ['/admin', '/account', '/checkout', '/cart', '/api', '/auth'],
       },
     ],
-    sitemap: 'https://www.royalsewa.com/sitemap.xml',
+    sitemap: 'https://www.premiumsubscriptions.com/sitemap.xml',
   }
 }

@@ -5,14 +5,14 @@ import { Breadcrumb } from '@/components/breadcrumb'
 
 export const metadata: Metadata = {
   title: 'Privacy Policy',
-  description: 'Read how RoyalSewa collects, uses, and protects your personal information when you use our digital products platform in Nepal.',
+  description: 'Read how Premium Subscriptions Store collects, uses, and protects your personal information when you use our digital products platform in Nepal.',
   alternates: { canonical: '/privacy' },
 }
 
 const sections = [
   {
     title: '1. Information We Collect',
-    content: 'When you create an account or make a purchase on RoyalSewa, we collect: your name, email address, and phone number during registration; payment information processed securely through eSewa, Khalti, ConnectIPS, or other payment gateways (we do not store your payment credentials); order history and product delivery details; device information, IP address, and browser type for security and analytics; any information you voluntarily provide through our contact forms or support channels.',
+    content: 'When you create an account or make a purchase on Premium Subscriptions Store, we collect: your name, email address, and phone number during registration; payment information processed securely through eSewa, Khalti, ConnectIPS, or other payment gateways (we do not store your payment credentials); order history and product delivery details; device information, IP address, and browser type for security and analytics; any information you voluntarily provide through our contact forms or support channels.',
   },
   {
     title: '2. How We Use Your Information',
@@ -20,7 +20,7 @@ const sections = [
   },
   {
     title: '3. Information Sharing',
-    content: 'RoyalSewa does not sell, trade, or rent your personal information to third parties. We may share limited information with: payment processors (eSewa, Khalti, ConnectIPS) to complete transactions; service providers who assist us in operating the website and conducting business; law enforcement or government authorities when required by Nepal law.',
+    content: 'Premium Subscriptions Store does not sell, trade, or rent your personal information to third parties. We may share limited information with: payment processors (eSewa, Khalti, ConnectIPS) to complete transactions; service providers who assist us in operating the website and conducting business; law enforcement or government authorities when required by Nepal law.',
   },
   {
     title: '4. Data Security',
@@ -28,11 +28,11 @@ const sections = [
   },
   {
     title: '5. Cookies',
-    content: 'RoyalSewa uses cookies and similar technologies to: keep you logged into your account; remember your preferences; analyze site traffic and usage patterns; improve our services. You can control cookie preferences through your browser settings. Disabling cookies may affect some functionality of the website.',
+    content: 'Premium Subscriptions Store uses cookies and similar technologies to: keep you logged into your account; remember your preferences; analyze site traffic and usage patterns; improve our services. You can control cookie preferences through your browser settings. Disabling cookies may affect some functionality of the website.',
   },
   {
     title: '6. Your Rights',
-    content: 'You have the right to: access the personal information we hold about you; request correction of inaccurate information; request deletion of your account and personal data; opt out of promotional communications; withdraw consent for data processing at any time. To exercise any of these rights, please contact us at support@royalsewa.com.',
+    content: 'You have the right to: access the personal information we hold about you; request correction of inaccurate information; request deletion of your account and personal data; opt out of promotional communications; withdraw consent for data processing at any time. To exercise any of these rights, please contact us at support@premiumsubscriptions.com.',
   },
   {
     title: '7. Data Retention',
@@ -40,7 +40,7 @@ const sections = [
   },
   {
     title: '8. Children\'s Privacy',
-    content: 'RoyalSewa does not knowingly collect personal information from individuals under the age of 16. If we learn that we have collected information from a child under 16, we will delete that information promptly.',
+    content: 'Premium Subscriptions Store does not knowingly collect personal information from individuals under the age of 16. If we learn that we have collected information from a child under 16, we will delete that information promptly.',
   },
   {
     title: '9. Changes to This Policy',
@@ -48,7 +48,7 @@ const sections = [
   },
   {
     title: '10. Contact',
-    content: 'If you have any questions about this Privacy Policy or our data practices, please contact us at support@royalsewa.com or visit our Contact page.',
+    content: 'If you have any questions about this Privacy Policy or our data practices, please contact us at support@premiumsubscriptions.com or visit our Contact page.',
   },
 ]
 

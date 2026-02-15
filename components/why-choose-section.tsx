@@ -60,7 +60,7 @@ export function WhyChooseSection() {
           className="text-center mb-8 sm:mb-10"
         >
           <h2 className="text-xl sm:text-2xl font-bold text-foreground text-balance">
-            Why Choose <span className="text-primary">Royal Sewa</span>?
+            Why Choose <span className="text-primary">Premium Subscriptions</span>?
           </h2>
           <p className="text-sm text-muted-foreground mt-2 max-w-lg mx-auto text-pretty">
             Nepal's most trusted platform for digital subscriptions, streaming services, game top-ups, and software keys.
