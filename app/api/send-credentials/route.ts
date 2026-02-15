@@ -2,8 +2,6 @@ import { NextRequest, NextResponse } from "next/server"
 import { createClient } from "@/lib/supabase/server"
 import { Resend } from "resend"
 
-const resend = new Resend(process.env.RESEND_API_KEY)
-
 export async function POST(req: NextRequest) {
   try {
     const supabase = await createClient()
@@ -45,6 +43,9 @@ export async function POST(req: NextRequest) {
       return NextResponse.json({ error: "Missing required fields" }, { status: 400 })
     }
 
+    // Initialize Resend only when needed
+    const resend = new Resend(process.env.RESEND_API_KEY)
+
     const itemsList = items
       .map(
         (item) =>
@@ -73,7 +74,7 @@ export async function POST(req: NextRequest) {
         <!-- Header -->
         <tr>
           <td style="background:#111;padding:28px 30px;text-align:center;">
-            <h1 style="margin:0;font-size:20px;font-weight:700;color:#ffffff;letter-spacing:-0.3px;">RoyalSewa</h1>
+            <h1 style="margin:0;font-size:20px;font-weight:700;color:#ffffff;letter-spacing:-0.3px;">Premium Subscriptions Store</h1>
             <p style="margin:6px 0 0;font-size:12px;color:#aaa;">Your Digital Marketplace in Nepal</p>
           </td>
         </tr>
@@ -108,7 +109,7 @@ export async function POST(req: NextRequest) {
             }
 
             <p style="margin:20px 0 0;font-size:13px;color:#555;line-height:1.6;">
-              Please save these credentials securely. If you have any issues, reply to this email or contact us at support@royalsewa.com.
+              Please save these credentials securely. If you have any issues, reply to this email or contact us at support@premiumsubscriptions.com.
             </p>
           </td>
         </tr>
@@ -117,7 +118,7 @@ export async function POST(req: NextRequest) {
         <tr>
           <td style="background:#fafafa;padding:20px 30px;border-top:1px solid #eee;text-align:center;">
             <p style="margin:0;font-size:11px;color:#999;line-height:1.5;">
-              RoyalSewa - Digital Products Marketplace, Nepal<br>
+              Premium Subscriptions Store - Digital Products Marketplace, Nepal<br>
               This email was sent regarding order #${orderNumber}
             </p>
           </td>
@@ -130,7 +131,7 @@ export async function POST(req: NextRequest) {
 </html>`
 
     const { data, error } = await resend.emails.send({
-      from: "RoyalSewa <support@royalsewa.com>",
+      from: "Premium Subscriptions Store <support@premiumsubscriptions.com>",
       to: customerEmail,
       subject: `Your Order #${orderNumber} - Account Credentials`,
       html,
