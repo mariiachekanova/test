@@ -39,7 +39,7 @@ const socialLinks = [
   { icon: Twitter, label: "Twitter", href: "#" },
   { icon: Instagram, label: "Instagram", href: "#" },
   { icon: Youtube, label: "YouTube", href: "#" },
-  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/9779869671451" },
+  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/9779746334202" },
 ]
 
 const paymentBrands = ["eSewa", "Khalti", "ConnectIPS", "Visa", "Mastercard"]
@@ -79,13 +79,13 @@ export function Footer() {
             {/* Contact */}
             <div className="flex flex-col gap-1 mb-3">
               <a
-                href="https://wa.me/9779869671451"
+                href="https://wa.me/9779746334202"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-1.5 text-[12px] text-primary font-semibold hover:underline"
               >
                 <MessageCircle className="w-3.5 h-3.5" />
-                +977 9869671451
+                +977 9746334202
               </a>
               <a
                 href="mailto:support@premiumsubscriptions.com"
@@ -175,8 +175,8 @@ export function Footer() {
                 </li>
               ))}
               <li>
-                <a href="https://wa.me/9779869671451" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-[12px] hover:text-primary transition-colors">
-                  WhatsApp: +977 9869671451
+                <a href="https://wa.me/9779746334202" target="_blank" rel="noopener noreferrer" className="text-muted-foreground text-[12px] hover:text-primary transition-colors">
+                  WhatsApp: +977 9746334202
                 </a>
               </li>
               <li>

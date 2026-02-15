@@ -135,7 +135,7 @@ export default function AboutPage() {
               Our Kathmandu-based team is here to help. Reach us anytime.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-[13px]">
-              <a href="https://wa.me/9779869671451" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">WhatsApp: +977 9869671451</a>
+              <a href="https://wa.me/9779746334202" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">WhatsApp: +977 9746334202</a>
               <span className="hidden sm:inline text-border">|</span>
               <a href="mailto:support@premiumsubscriptions.com" className="text-primary font-semibold hover:underline">support@premiumsubscriptions.com</a>
             </div>
