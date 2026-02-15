@@ -147,7 +147,7 @@ export function Header() {
                 height={36}
                 className="rounded-full group-hover:scale-105 transition-transform duration-300"
               />
-              <span className="font-serif text-[20px] font-bold tracking-[-0.02em] leading-none text-foreground">Premium <span className="text-primary">Subscriptions</span></span>
+              <span className="font-serif text-[20px] font-bold tracking-[-0.02em] leading-none text-foreground">Subscription <span className="text-primary">Nepal</span></span>
             </Link>
             <div className="flex items-center gap-1">
               <Link href="#" className="flex items-center gap-1.5 px-3 py-2 text-[13px] text-muted-foreground hover:text-primary font-medium rounded-lg hover:bg-secondary transition-colors cursor-pointer">
@@ -255,7 +255,7 @@ export function Header() {
                 height={32}
                 className="rounded-full group-hover:scale-105 transition-transform duration-300"
               />
-              <span className="font-serif text-[17px] font-bold tracking-[-0.02em] leading-none text-foreground">Premium <span className="text-primary">Subs</span></span>
+              <span className="font-serif text-[17px] font-bold tracking-[-0.02em] leading-none text-foreground">Subscription <span className="text-primary">Nepal</span></span>
             </Link>
             <div className="flex items-center gap-0.5">
               <DropdownMenu>
