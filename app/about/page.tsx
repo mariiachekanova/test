@@ -5,14 +5,14 @@ import { Breadcrumb } from '@/components/breadcrumb'
 import { Shield, Zap, Users, Globe, Heart, Award, Tv, Music, Gamepad2, Code } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'About Us - RoyalSewa | Nepal\'s #1 Digital Subscription Provider',
-  description: 'RoyalSewa is Nepal\'s leading digital subscription provider. Buy Netflix, Spotify, YouTube Premium, game top-ups & software in Nepal. Pay with eSewa, Khalti, ConnectIPS. Instant delivery, best NPR prices.',
-  keywords: ['digital subscription nepal', 'buy netflix nepal', 'spotify premium nepal', 'nepal digital store', 'royalsewa about', 'online subscription provider nepal'],
+  title: 'About Us - Premium Subscriptions Store | Nepal\'s #1 Digital Subscription Provider',
+  description: 'Premium Subscriptions Store is Nepal\'s leading digital subscription provider. Buy Netflix, Spotify, YouTube Premium, game top-ups & software in Nepal. Pay with eSewa, Khalti, ConnectIPS. Instant delivery, best NPR prices.',
+  keywords: ['digital subscription nepal', 'buy netflix nepal', 'spotify premium nepal', 'nepal digital store', 'premium subscriptions store about', 'online subscription provider nepal'],
   alternates: { canonical: '/about' },
   openGraph: {
-    title: 'About RoyalSewa - Nepal\'s #1 Digital Subscription Provider',
+    title: 'About Premium Subscriptions Store - Nepal\'s #1 Digital Subscription Provider',
     description: 'Nepal\'s most trusted platform for digital subscriptions, gift cards, and game top-ups. Serving 50,000+ customers across Nepal.',
-    url: 'https://www.royalsewa.com/about',
+    url: 'https://www.premiumsubscriptions.com/about',
   },
 }
 
@@ -21,7 +21,7 @@ const values = [
   { icon: Shield, title: '100% Genuine Products', desc: 'Every subscription and gift card is sourced directly from official distributors and publishers.' },
   { icon: Users, title: 'Customer First', desc: 'Our dedicated Kathmandu-based support team is available to help you with any issues.' },
   { icon: Globe, title: 'Made for Nepal', desc: 'We support eSewa, Khalti, ConnectIPS, bank transfers, and pricing in Nepali Rupees (NPR).' },
-  { icon: Heart, title: 'Trusted by 50,000+', desc: 'Over 50,000 satisfied customers across Nepal trust RoyalSewa for their digital needs.' },
+  { icon: Heart, title: 'Trusted by 50,000+', desc: 'Over 50,000 satisfied customers across Nepal trust Premium Subscriptions Store for their digital needs.' },
   { icon: Award, title: 'Best Prices in Nepal', desc: 'We offer the most competitive prices on digital subscriptions with regular discounts and offers.' },
 ]
 
@@ -53,7 +53,7 @@ export default function AboutPage() {
               Nepal&apos;s <span className="text-primary">#1 Digital Subscription</span> Provider
             </h1>
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed max-w-2xl mx-auto text-pretty">
-              RoyalSewa is Nepal&apos;s leading digital marketplace for streaming subscriptions, gift cards, game top-ups, and software licenses. We make it easy for Nepali consumers to access the world&apos;s best digital services with local payment options and instant delivery.
+              Premium Subscriptions Store is Nepal&apos;s leading digital marketplace for streaming subscriptions, gift cards, game top-ups, and software licenses. We make it easy for Nepali consumers to access the world&apos;s best digital services with local payment options and instant delivery.
             </p>
           </section>
 
@@ -72,13 +72,13 @@ export default function AboutPage() {
             <h2 className="text-lg font-bold text-foreground">Our Story</h2>
             <div className="space-y-3 text-[13px] text-muted-foreground leading-relaxed">
               <p>
-                Founded in Nepal, RoyalSewa was born out of a simple frustration: buying digital subscriptions like Netflix, Spotify, or YouTube Premium was unnecessarily complicated for Nepali users. International payment barriers, inflated prices from third-party resellers, and unreliable delivery made it nearly impossible for people in Nepal to access the digital services the rest of the world enjoys effortlessly.
+                Founded in Nepal, Premium Subscriptions Store was born out of a simple frustration: buying digital subscriptions like Netflix, Spotify, or YouTube Premium was unnecessarily complicated for Nepali users. International payment barriers, inflated prices from third-party resellers, and unreliable delivery made it nearly impossible for people in Nepal to access the digital services the rest of the world enjoys effortlessly.
               </p>
               <p>
                 We set out to change that. By partnering directly with publishers and distributors, integrating Nepal&apos;s most popular payment gateways -- eSewa, Khalti, and ConnectIPS -- and building a platform specifically designed for Nepali users, we&apos;ve made buying digital subscriptions as simple as ordering from your favourite local store.
               </p>
               <p>
-                Today, RoyalSewa is Nepal&apos;s most trusted digital subscription provider, serving over 50,000 customers across all 77 districts. From Kathmandu to Pokhara, Biratnagar to Dhangadhi, we deliver instant digital codes for streaming services, gift cards, game top-ups, and professional software -- all at the best prices in Nepali Rupees.
+                Today, Premium Subscriptions Store is Nepal&apos;s most trusted digital subscription provider, serving over 50,000 customers across all 77 districts. From Kathmandu to Pokhara, Biratnagar to Dhangadhi, we deliver instant digital codes for streaming services, gift cards, game top-ups, and professional software -- all at the best prices in Nepali Rupees.
               </p>
             </div>
           </section>
@@ -137,7 +137,7 @@ export default function AboutPage() {
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3 text-[13px]">
               <a href="https://wa.me/9779869671451" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">WhatsApp: +977 9869671451</a>
               <span className="hidden sm:inline text-border">|</span>
-              <a href="mailto:support@royalsewa.com" className="text-primary font-semibold hover:underline">support@royalsewa.com</a>
+              <a href="mailto:support@premiumsubscriptions.com" className="text-primary font-semibold hover:underline">support@premiumsubscriptions.com</a>
             </div>
           </section>
         </div>

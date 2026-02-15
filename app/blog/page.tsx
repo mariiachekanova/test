@@ -8,16 +8,16 @@ import { getBlogPostsServer, type BlogPost } from "@/lib/data-server"
 import { Clock, ArrowRight } from "lucide-react"
 
 export const metadata: Metadata = {
-  title: "Blog - RoyalSewa | Digital Guides, Deals & News from Nepal",
-  description: "Read the latest guides, deals, and news about digital subscriptions, gift cards, games, and software in Nepal. Tips and tricks from RoyalSewa.",
+  title: "Blog - Premium Subscriptions Store | Digital Guides, Deals & News from Nepal",
+  description: "Read the latest guides, deals, and news about digital subscriptions, gift cards, games, and software in Nepal. Tips and tricks from Premium Subscriptions Store.",
   openGraph: {
-    title: "Blog - RoyalSewa",
+    title: "Blog - Premium Subscriptions Store",
     description: "Digital guides, deals & news from Nepal's trusted digital store.",
-    url: "https://www.royalsewa.com/blog",
-    siteName: "RoyalSewa",
+    url: "https://www.premiumsubscriptions.com/blog",
+    siteName: "Premium Subscriptions Store",
     type: "website",
   },
-  alternates: { canonical: "https://www.royalsewa.com/blog" },
+  alternates: { canonical: "https://www.premiumsubscriptions.com/blog" },
 }
 
 function BlogCardSkeleton() {
@@ -174,7 +174,7 @@ async function BlogGrid() {
         <ul>
           {posts.map(post => (
             <li key={post.id}>
-              <a href={`https://www.royalsewa.com/blog/${post.slug}`}>{post.title}</a>
+              <a href={`https://www.premiumsubscriptions.com/blog/${post.slug}`}>{post.title}</a>
               {post.excerpt && <p>{post.excerpt}</p>}
             </li>
           ))}
@@ -210,10 +210,10 @@ export default function BlogPage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Blog",
-        name: "RoyalSewa Blog",
-        url: "https://www.royalsewa.com/blog",
+        name: "Premium Subscriptions Store Blog",
+        url: "https://www.premiumsubscriptions.com/blog",
         description: "Guides, deals, and news about digital products in Nepal.",
-        publisher: { "@type": "Organization", name: "RoyalSewa", url: "https://www.royalsewa.com" },
+        publisher: { "@type": "Organization", name: "Premium Subscriptions Store", url: "https://www.premiumsubscriptions.com" },
       })}} />
     </div>
   )

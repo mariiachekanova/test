@@ -362,7 +362,7 @@ export default function CredentialsPage() {
                 <div className="flex items-start gap-2 p-3 rounded-xl bg-sky-500/5 border border-sky-500/20">
                   <ShieldCheck className="w-4 h-4 text-sky-500 shrink-0 mt-0.5" />
                   <div>
-                    <p className="text-[11px] font-semibold text-sky-500">Email will be sent from support@royalsewa.com</p>
+                    <p className="text-[11px] font-semibold text-sky-500">Email will be sent from support@premiumsubscriptions.com</p>
                     <p className="text-[10px] text-sky-400/80 mt-0.5">Credentials are sent via a branded HTML email to {selectedOrder.customer_email}. The order status will be set to completed automatically.</p>
                   </div>
                 </div>

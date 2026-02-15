@@ -18,10 +18,10 @@ import {
 
 /* ── Payment methods ── */
 const PAYMENT_METHODS = [
-  { id: "esewa", name: "eSewa", color: "#60BB46", desc: "Pay via eSewa mobile wallet", accountId: "9800000000", accountName: "Royal Sewa Digital" },
-  { id: "khalti", name: "Khalti", color: "#5C2D91", desc: "Pay via Khalti digital wallet", accountId: "9800000000", accountName: "Royal Sewa Digital" },
-  { id: "connectips", name: "ConnectIPS", color: "#004B93", desc: "Pay via ConnectIPS bank transfer", accountId: "RS-CONNECT-001", accountName: "Royal Sewa Digital Pvt. Ltd." },
-  { id: "internet_banking", name: "Internet Banking", color: "#0f766e", desc: "Direct bank transfer", accountId: "014-0028376501", accountName: "Royal Sewa Digital Pvt. Ltd." },
+  { id: "esewa", name: "eSewa", color: "#60BB46", desc: "Pay via eSewa mobile wallet", accountId: "9800000000", accountName: "Premium Subscriptions Digital" },
+  { id: "khalti", name: "Khalti", color: "#5C2D91", desc: "Pay via Khalti digital wallet", accountId: "9800000000", accountName: "Premium Subscriptions Digital" },
+  { id: "connectips", name: "ConnectIPS", color: "#004B93", desc: "Pay via ConnectIPS bank transfer", accountId: "RS-CONNECT-001", accountName: "Premium Subscriptions Digital Pvt. Ltd." },
+  { id: "internet_banking", name: "Internet Banking", color: "#0f766e", desc: "Direct bank transfer", accountId: "014-0028376501", accountName: "Premium Subscriptions Digital Pvt. Ltd." },
 ] as const
 
 function getItemPrice(item: CartItem) {

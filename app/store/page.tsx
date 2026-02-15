@@ -392,7 +392,7 @@ export default function StorePage() {
                 </h2>
                 <div className="space-y-3 text-[12px] sm:text-[13px] text-muted-foreground leading-relaxed">
                   <p>
-                    RoyalSewa is Nepal{"'"}s most trusted platform for digital subscriptions, streaming services, 
+                    Premium Subscriptions Store is Nepal{"'"}s most trusted platform for digital subscriptions, streaming services, 
                     and game top-ups. We offer the best prices in NPR for Netflix, Spotify Premium, YouTube Premium, 
                     Canva Pro, Adobe Creative Cloud, Discord Nitro, and many more popular services.
                   </p>
@@ -403,7 +403,7 @@ export default function StorePage() {
                   </p>
                   <p>
                     Whether you{"'"}re looking for streaming subscriptions, gaming credits, or software 
-                    licenses, RoyalSewa has everything you need at competitive prices. Join over 50,000+ 
+                    licenses, Premium Subscriptions Store has everything you need at competitive prices. Join over 50,000+ 
                     satisfied customers across Nepal who trust us for their digital purchases.
                   </p>
                 </div>

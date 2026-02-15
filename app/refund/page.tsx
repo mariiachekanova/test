@@ -7,14 +7,14 @@ import { AlertTriangle } from 'lucide-react'
 
 export const metadata: Metadata = {
   title: 'Refund Policy',
-  description: 'Understand the refund and cancellation policy for digital products purchased on RoyalSewa, Nepal\'s trusted digital store.',
+  description: 'Understand the refund and cancellation policy for digital products purchased on Premium Subscriptions Store, Nepal\'s trusted digital store.',
   alternates: { canonical: '/refund' },
 }
 
 const sections = [
   {
     title: '1. Digital Product Nature',
-    content: 'All products sold on RoyalSewa are digital goods (subscription codes, gift cards, game top-ups, software keys). Due to the instant and irrevocable nature of digital product delivery, all sales are generally considered final once the product code has been revealed or delivered.',
+    content: 'All products sold on Premium Subscriptions Store are digital goods (subscription codes, gift cards, game top-ups, software keys). Due to the instant and irrevocable nature of digital product delivery, all sales are generally considered final once the product code has been revealed or delivered.',
   },
   {
     title: '2. Eligible Refund Cases',
@@ -26,11 +26,11 @@ const sections = [
   },
   {
     title: '4. How to Request a Refund',
-    content: 'To request a refund: email us at support@royalsewa.com with your order ID, registered email, and a description of the issue; our team will investigate and respond within 24-48 hours; if approved, refunds will be processed to your original payment method within 5-7 business days; alternatively, you may opt for store credit which is processed instantly.',
+    content: 'To request a refund: email us at support@premiumsubscriptions.com with your order ID, registered email, and a description of the issue; our team will investigate and respond within 24-48 hours; if approved, refunds will be processed to your original payment method within 5-7 business days; alternatively, you may opt for store credit which is processed instantly.',
   },
   {
     title: '5. Refund Method',
-    content: 'Approved refunds will be returned to the original payment method used (eSewa, Khalti, ConnectIPS, etc.). Processing times depend on the payment provider and may take 3-7 business days. RoyalSewa store credit is an alternative option and is processed immediately.',
+    content: 'Approved refunds will be returned to the original payment method used (eSewa, Khalti, ConnectIPS, etc.). Processing times depend on the payment provider and may take 3-7 business days. Premium Subscriptions Store store credit is an alternative option and is processed immediately.',
   },
   {
     title: '6. Order Cancellation',
@@ -38,11 +38,11 @@ const sections = [
   },
   {
     title: '7. Disputes',
-    content: 'If you are not satisfied with our refund decision, you may escalate the matter by emailing support@royalsewa.com with the subject "Refund Dispute" and your order details. We will review your case within 48 hours and provide a final decision.',
+    content: 'If you are not satisfied with our refund decision, you may escalate the matter by emailing support@premiumsubscriptions.com with the subject "Refund Dispute" and your order details. We will review your case within 48 hours and provide a final decision.',
   },
   {
     title: '8. Contact',
-    content: 'For all refund-related queries, reach us at support@royalsewa.com or through our Contact page. Our support team operates Sun-Fri, 10 AM - 6 PM NPT.',
+    content: 'For all refund-related queries, reach us at support@premiumsubscriptions.com or through our Contact page. Our support team operates Sun-Fri, 10 AM - 6 PM NPT.',
   },
 ]
 

@@ -43,7 +43,7 @@ export default function SignUpPage() {
       return
     }
     if (result.autoSignedIn) {
-      toast({ variant: "success", title: "Welcome to RoyalSewa!", description: "Your account has been created and you're signed in." })
+      toast({ variant: "success", title: "Welcome to Premium Subscriptions Store!", description: "Your account has been created and you're signed in." })
       // Trigger refresh in background without blocking navigation
       setIsRefreshing(true)
       router.push("/account")
@@ -83,7 +83,7 @@ export default function SignUpPage() {
               <UserPlus className="w-6 h-6 text-primary" />
             </div>
             <h1 className="text-[22px] font-bold text-foreground">Create Account</h1>
-            <p className="text-[13px] text-muted-foreground mt-1">Join RoyalSewa and start buying gift cards</p>
+            <p className="text-[13px] text-muted-foreground mt-1">Join Premium Subscriptions Store and start buying gift cards</p>
           </div>
 
           <form onSubmit={handleSubmit} className="flex flex-col gap-4">

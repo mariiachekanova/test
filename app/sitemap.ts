@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next'
 import { createClient } from '@/lib/supabase/client'
 
-const BASE = 'https://www.royalsewa.com'
+const BASE = 'https://www.premiumsubscriptions.com'
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const supabase = createClient()

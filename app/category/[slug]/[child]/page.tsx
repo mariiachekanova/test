@@ -11,7 +11,7 @@ import { Footer } from "@/components/footer"
 import { ProductCard } from "@/components/product-card"
 import { ChevronRight, Package } from "lucide-react"
 
-const BASE = "https://www.royalsewa.com"
+const BASE = "https://www.premiumsubscriptions.com"
 
 // ─── Dynamic Metadata ───────────────────────────────────────────────
 export async function generateMetadata({
@@ -24,9 +24,9 @@ export async function generateMetadata({
     getCategoryBySlugServer(slug),
     getCategoryBySlugServer(childSlug),
   ])
-  if (!parent || !category) return { title: "Category Not Found | RoyalSewa" }
+  if (!parent || !category) return { title: "Category Not Found | Premium Subscriptions Store" }
 
-  const title = `${category.name} - ${parent.name} | Buy in Nepal | RoyalSewa`
+  const title = `${category.name} - ${parent.name} | Buy in Nepal | Premium Subscriptions Store`
   const description =
     category.description ||
     `Browse ${category.name} under ${parent.name} at the best prices in Nepal. Instant delivery, pay with eSewa, Khalti, ConnectIPS.`
@@ -40,14 +40,14 @@ export async function generateMetadata({
       `buy ${category.name.toLowerCase()} nepal`,
       `${parent.name.toLowerCase()} ${category.name.toLowerCase()} nepal`,
       "digital products nepal",
-      "royalsewa",
+      "premium subscriptions store",
     ],
     openGraph: {
       type: "website",
       title,
       description,
       url,
-      siteName: "RoyalSewa",
+      siteName: "Premium Subscriptions Store",
       ...(category.image_url ? { images: [{ url: category.image_url, width: 600, height: 400, alt: category.name }] } : {}),
     },
     twitter: { card: "summary_large_image", title, description },
@@ -82,7 +82,7 @@ export default async function ChildCategoryPage({
     name: `${category.name} - ${parent.name}`,
     description,
     url,
-    isPartOf: { "@type": "WebSite", name: "RoyalSewa", url: BASE },
+    isPartOf: { "@type": "WebSite", name: "Premium Subscriptions Store", url: BASE },
     numberOfItems: products.length,
     ...(category.image_url ? { image: category.image_url } : {}),
   }
@@ -224,10 +224,10 @@ export default async function ChildCategoryPage({
 
         {/* ─── Server-rendered SEO content ─── */}
         <article className="sr-only" aria-hidden="true">
-          <h2>{category.name} - {parent.name} at RoyalSewa Nepal</h2>
+          <h2>{category.name} - {parent.name} at Premium Subscriptions Store Nepal</h2>
           <p>{description}</p>
           <p>
-            Buy {category.name} online in Nepal from RoyalSewa. Browse our {parent.name} collection
+            Buy {category.name} online in Nepal from Premium Subscriptions Store. Browse our {parent.name} collection
             with instant digital delivery and payment options including eSewa, Khalti, ConnectIPS,
             Visa, and Mastercard. All products are 100% genuine with 24/7 customer support.
           </p>

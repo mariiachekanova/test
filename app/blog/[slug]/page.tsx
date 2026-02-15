@@ -15,21 +15,21 @@ type PageProps = { params: Promise<{ slug: string }> }
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params
   const post = await getBlogPostBySlugServer(slug)
-  if (!post) return { title: "Post Not Found - RoyalSewa" }
+  if (!post) return { title: "Post Not Found - Premium Subscriptions Store" }
 
-  const title = post.meta_title || `${post.title} - RoyalSewa Blog`
-  const description = post.meta_description || post.excerpt || `Read ${post.title} on RoyalSewa Blog.`
-  const url = `https://www.royalsewa.com/blog/${post.slug}`
+  const title = post.meta_title || `${post.title} - Premium Subscriptions Store Blog`
+  const description = post.meta_description || post.excerpt || `Read ${post.title} on Premium Subscriptions Store Blog.`
+  const url = `https://www.premiumsubscriptions.com/blog/${post.slug}`
 
   return {
     title,
     description,
-    keywords: post.meta_keywords ? post.meta_keywords.join(", ") : `${post.title}, RoyalSewa, blog, Nepal, digital products`,
+    keywords: post.meta_keywords ? post.meta_keywords.join(", ") : `${post.title}, Premium Subscriptions Store, blog, Nepal, digital products`,
     openGraph: {
       title,
       description,
       url,
-      siteName: "RoyalSewa",
+      siteName: "Premium Subscriptions Store",
       type: "article",
       publishedTime: post.created_at,
       modifiedTime: post.updated_at,
@@ -75,7 +75,7 @@ async function BlogArticle({ slug }: { slug: string }) {
   // Related posts (exclude current)
   const related = allPosts.filter(p => p.id !== post.id).slice(0, 3)
 
-  const url = `https://www.royalsewa.com/blog/${post.slug}`
+  const url = `https://www.premiumsubscriptions.com/blog/${post.slug}`
 
   // JSON-LD schemas
   const articleSchema = {
@@ -87,12 +87,12 @@ async function BlogArticle({ slug }: { slug: string }) {
     datePublished: post.created_at,
     dateModified: post.updated_at,
     ...(post.image_url ? { image: post.image_url } : {}),
-    author: { "@type": "Organization", name: "RoyalSewa" },
+    author: { "@type": "Organization", name: "Premium Subscriptions Store" },
     publisher: {
       "@type": "Organization",
-      name: "RoyalSewa",
-      url: "https://www.royalsewa.com",
-      logo: { "@type": "ImageObject", url: "https://www.royalsewa.com/android-chrome-512x512.png" },
+      name: "Premium Subscriptions Store",
+      url: "https://www.premiumsubscriptions.com",
+      logo: { "@type": "ImageObject", url: "https://www.premiumsubscriptions.com/android-chrome-512x512.png" },
     },
     mainEntityOfPage: { "@type": "WebPage", "@id": url },
     wordCount,
@@ -102,8 +102,8 @@ async function BlogArticle({ slug }: { slug: string }) {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.royalsewa.com" },
-      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.royalsewa.com/blog" },
+      { "@type": "ListItem", position: 1, name: "Home", item: "https://www.premiumsubscriptions.com" },
+      { "@type": "ListItem", position: 2, name: "Blog", item: "https://www.premiumsubscriptions.com/blog" },
       { "@type": "ListItem", position: 3, name: post.title, item: url },
     ],
   }
@@ -233,7 +233,7 @@ async function BlogArticle({ slug }: { slug: string }) {
             <ul>
               {post.linked_products.map(p => (
                 <li key={p.id}>
-                  <a href={`https://www.royalsewa.com/product/${p.slug || p.id}`}>{p.name}</a>
+                  <a href={`https://www.premiumsubscriptions.com/product/${p.slug || p.id}`}>{p.name}</a>
                 </li>
               ))}
             </ul>
