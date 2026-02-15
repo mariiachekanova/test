@@ -7,13 +7,14 @@ import { cookies } from 'next/headers'
  * it.
  */
 export async function createClient() {
-  const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
-  const supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
+  let supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL
+  let supabaseAnonKey = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY
 
+  // During build-time prerendering, env vars may not be available.
+  // Use placeholders so the build doesn't crash.
   if (!supabaseUrl || !supabaseAnonKey) {
-    throw new Error(
-      'Missing Supabase environment variables. Set NEXT_PUBLIC_SUPABASE_URL and NEXT_PUBLIC_SUPABASE_ANON_KEY.'
-    )
+    supabaseUrl = 'https://placeholder.supabase.co'
+    supabaseAnonKey = 'placeholder-anon-key'
   }
 
   const cookieStore = await cookies()
